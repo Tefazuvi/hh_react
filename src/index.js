@@ -1,17 +1,14 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
+import './style.scss'
 
-import Header from './js/components/presentational/header.js'
+import Banner from './components/presentational/banner/'
 
 class App extends Component {
   render() {
     return (
       <div className="dcc">
-        <Header
-          name="Mauricio"
-          surName="Poveda"
-          dob="quetimporta"
-        />
+        <Banner />
       </div>
      )
    }
