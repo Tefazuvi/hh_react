@@ -1,19 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom'
-import './style.scss'
 
-import Banner from './components/presentational/banner/'
-
-class App extends Component {
-  render() {
-    return (
-      <div className="dcc">
-        <Banner />
-      </div>
-     )
-   }
- }
-
- export default App;
+import App from './App'
 
 ReactDOM.render(<App />, document.getElementById('root'))
