@@ -1,0 +1,27 @@
+.hh-card {
+    text-align: center;
+    //display: flex;
+    //align-items: center;
+    //color: #fff;
+
+    width: 25%;
+    //margin: 10px;
+  
+    /*&__container {
+      //@include container;
+    }*/
+  
+    &__image {
+      //@include type-heading-1;
+      width: 70%;
+      height: 250px;
+      //background-size: cover;
+      margin: auto;
+    }
+  
+    &__title{
+      margin: 1rem;
+      font-size: 18px;
+    }
+  }
+  
