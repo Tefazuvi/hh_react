@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
-import './style.scss'
+import './assets/scss/main.scss'
 
 import Banner from './components/presentational/banner/'
 
