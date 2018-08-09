@@ -1,19 +1,32 @@
 import React from "react";
-import Card from '../card'
 
-const CardsList = data => (
-    <div className="hh_cocktails">
-        <h2 className="hh_cocktails__subheading">Details</h2>
-        <div className="hh_cocktails__container">
-        <div className="hh-card">
-                <img className="hh-card__image"
-                    src={data.details[0].strDrinkThumb}
-                    alt={data.details[0].strDrink}
+const Modal = ({ details, show, handleClose, ingredients }) => (
+    <div style={{ display: show ? 'block' : 'none' }}>
+        <div className="hh_modal">
+            <h2 className="hh_modal__title">{details[0].strDrink}</h2>
+            <div className="hh_modal__container">
+                <img className="hh_modal__image"
+                    src={details[0].strDrinkThumb}
+                    alt={details[0].strDrink}
                 />
-                <h2 className="hh-card__title">{data.details[0].strDrink}</h2>
+                <div className="hh_modal__Content">
+                    <div className="hh_modal__Ingredients">
+                        <h3 className="hh_modal__title">Ingredients</h3>
+                        <ul>
+                            {ingredients.map((ingredient, index) =>
+                                <li key={index}>{ingredient}</li>
+                            )}
+                        </ul>
+                    </div>
+                    <div className="hh_modal__Instructions">
+                        <h3 className="hh_modal__title">Instructions</h3>
+                        <p>{details[0].strInstructions}</p>
+                    </div>
+                </div>
             </div>
+            <button className="hh_modal__button" onClick={handleClose} type="button">CLOSE</button>
         </div>
     </div>
 )
 
-export default CardsList
+export default Modal

@@ -9,6 +9,7 @@ const CardsList = data => (
                 <Card key={idDrink}
                     imageUri={strDrinkThumb}
                     title={strDrink}
+                    id={idDrink}
                 />
             )}
         </div>
