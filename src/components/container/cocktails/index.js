@@ -17,14 +17,11 @@ class Cocktails extends React.Component {
   }
 
   render() {
-    console.log(this.state.cocktails);
     if (this.state.cocktails.length > 0) {
       return <CardsList cocktails={this.state.cocktails} />;
     } else {
       return <p>Loading ...</p>;
     }
-    //return React.createElement(CardsList, { cocktails: this.state.cocktails });
-    //return null;
   }
 }
 
