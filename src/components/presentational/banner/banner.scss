@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne');
+
 .hh-banner {
     background-image: url('./../images/cocktails_banner.jpg');
     height: 710px;
@@ -6,18 +8,22 @@
     color: #fff;
     background-size: cover;
     background-position: center;
+    font-family: 'Parisienne', cursive;
+    font-size: 30px;
   
-    /*&__container {
+    &__container {
+      background-color: transparent;
       //@include container;
-    }*/
+    }
   
     &__title {
       //@include type-heading-1;
-  
+      background-color: transparent;
       margin: 3rem;
     }
   
     &__description {
+      background-color: transparent;
       margin: 3rem;
     }
   }

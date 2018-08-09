@@ -1,8 +1,9 @@
 import React from "react";
 
 const Modal = ({ details, show, handleClose, ingredients }) => (
-    <div style={{ display: show ? 'block' : 'none' }}>
-        <div className="hh_modal">
+    <div className="hh_modal" style={{ display: show ? 'block' : 'none' }}>
+    <div className="hh_modal__overlay"></div>
+        <div className="hh_modal__main">
             <h2 className="hh_modal__title">{details[0].strDrink}</h2>
             <div className="hh_modal__container">
                 <img className="hh_modal__image"
