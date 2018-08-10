@@ -1,0 +1,34 @@
+.hh-button {
+    //@include type-link;
+      
+    padding: 0 2rem;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 2px;
+    height: 2.5rem;
+    min-width: 150px;
+      
+    &:hover {
+      cursor: pointer;
+    }
+      
+    &--primary {
+      color: $dark-red;
+        
+      &:hover {
+        background-color: $dark-red;
+        color: $white;
+        border: 2px solid $dark-red;
+      }
+    }
+      
+    &--secondary {
+      color: $white;
+        
+      &:hover {
+        background-color: $white;
+        color: $dark-red;
+      }
+    }
+  }
+  

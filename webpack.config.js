@@ -38,6 +38,12 @@ module.exports = {
       }
     ]
   },
+  devServer: {
+    port: 8080,
+    historyApiFallback: {
+      index: './dist/index.html'
+    }
+  },
   plugins: [
     new HtmlWebPackPlugin({
       template: "./src/index.html",

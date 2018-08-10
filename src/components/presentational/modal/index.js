@@ -12,7 +12,7 @@ const Modal = ({ details, show, handleClose, ingredients }) => (
                 />
                 <div className="hh_modal__Content">
                     <div className="hh_modal__Ingredients">
-                        <h3 className="hh_modal__title">Ingredients</h3>
+                        <h3 className="hh_modal__subtitle">INGREDIENTS</h3>
                         <ul>
                             {ingredients.map((ingredient, index) =>
                                 <li key={index}>{ingredient}</li>
@@ -20,12 +20,12 @@ const Modal = ({ details, show, handleClose, ingredients }) => (
                         </ul>
                     </div>
                     <div className="hh_modal__Instructions">
-                        <h3 className="hh_modal__title">Instructions</h3>
+                        <h3 className="hh_modal__subtitle">INSTRUCTIONS</h3>
                         <p>{details[0].strInstructions}</p>
                     </div>
                 </div>
             </div>
-            <button className="hh_modal__button" onClick={handleClose} type="button">CLOSE</button>
+            <button className="hh_modal__button hh-button" onClick={handleClose} type="button">CLOSE</button>
         </div>
     </div>
 )

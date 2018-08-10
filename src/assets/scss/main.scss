@@ -1,9 +1,11 @@
+@import 'variables';
+@import 'hhButton';
+@import 'base';
 @import './../../components/presentational/banner/banner.scss';
+@import './../../components/presentational/alcoholic_banner/alcoholic_banner.scss';
 @import './../../components/presentational/card/card.scss';
 @import './../../components/presentational/cardsList/cardsList.scss';
 @import './../../components/presentational/modal/modal.scss';
 @import './../../components/presentational/navigation/navigation.scss';
 @import './../../components/presentational/header/header.scss';
 @import './../../components/presentational/homeCard/homeCard.scss';
-@import 'variables';
-@import 'base';

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne');
+
+.hh-alcoholic_banner {
+    background-image: url('./../images/alcoholic_bottles.jpg');
+    height: 300px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Parisienne', cursive;
+    font-size: 30px;
+  
+    &__container {
+      background-color: transparent;
+      //@include container;
+    }
+  
+    &__title {
+      //@include type-heading-1;
+      background-color: transparent;
+      margin: 3rem;
+    }
+  
+    &__description {
+      background-color: transparent;
+      margin: 3rem;
+    }
+  }
+  

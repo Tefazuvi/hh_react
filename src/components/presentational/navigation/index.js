@@ -1,15 +1,16 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 class Navigation extends React.Component {
     render() {
         return (
             <nav className="hh-nav hh-nav--primary">
                 <ul className="hh-nav__list">
-                <li className="hh-nav__list-item">
-                        <a href="#" className="hh-nav__link">Home</a>
+                    <li className="hh-nav__list-item">
+                        <Link to='/' className="hh-nav__link">Home</Link>
                     </li>
                     <li className="hh-nav__list-item">
-                        <a href="#" className="hh-nav__link">Alcoholic</a>
+                        <Link to='/alcoholic_cocktails' className="hh-nav__link">Alcoholic</Link>
                     </li>
                     <li className="hh-nav__list-item">
                         <a href="#" className="hh-nav__link">Non-Alcoholic</a>
