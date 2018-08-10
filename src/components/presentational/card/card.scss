@@ -1,5 +1,6 @@
 .hh-card {
     text-align: center;
+    background-color: transparent;
     //display: flex;
     //align-items: center;
     //color: #fff;
@@ -22,6 +23,7 @@
     &__title{
       margin: 1rem;
       font-size: 18px;
+      background-color: transparent;
     }
   }
   

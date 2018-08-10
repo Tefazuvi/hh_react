@@ -1,15 +1,21 @@
 .hh_cocktails{
+
     &__subheading {
         //@include type-subheading();
-        
+        background-color: transparent;
         display: block;
         margin: 2rem;
     }
 
     &__container {
-        //@include container;
-        
-        //max-width: calc(92% - 3rem);
+        //background-image: url('http://dirtymartini.uk.com/wp-content/uploads/2015/12/hero-spirits.jpg');
+        //background-size: cover;
+        //background-position: center;
+        //background-color: black;
+        //font-family: 'Parisienne', cursive;
+        //font-size: 30px;
+        height: 100%;
+        //background-color: transparent;
         display: flex;
         flex-wrap: wrap;
         align-items: center;

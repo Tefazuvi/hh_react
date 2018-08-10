@@ -1,0 +1,71 @@
+.hh_modal{
+
+    &__overlay{
+    position:fixed;
+    background:black;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    }
+
+    &__main{
+        position:fixed;
+        background: white;
+        width: 700px;
+        //height: auto;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        z-index: 20;
+    }
+
+    &__title{
+        margin: 1rem;
+        font-size: 18px;
+      }
+
+    &__container {
+        //@include type-heading-1;
+        padding: 10px;
+        //background-size: cover;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    &__Content {
+        display: inline-block;
+        text-align: center;
+        padding: 20px;
+    }
+
+    &__Instructions {
+        display: block;
+        text-align: center;
+        padding: 20px;
+    }
+
+    &__Ingredients {
+        display: block;
+        text-align: start;
+        padding: 20px;
+    }
+
+    &__image {
+        display: inline-block;
+        //display: block;
+        //@include type-heading-1;
+        width: 40%;
+        height: 250px;
+        //background-size: cover;
+        //margin: auto;
+    }
+
+    &__button{
+        margin: 1rem;
+        font-size: 18px;
+    }
+}

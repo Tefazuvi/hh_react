@@ -6,7 +6,7 @@ class Banner extends React.Component {
             <div className="hh-banner">
                 <div className="hh-banner__container">
                     <h1 className="hh-banner__title">Happy Hour</h1>
-                    <p className="hh-banner__description">is the best hour</p>
+                    <p className="hh-banner__description">... is the best hour</p>
                 </div>
             </div>
         );
