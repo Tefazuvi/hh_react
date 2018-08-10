@@ -1,6 +1,5 @@
 import React from 'react'
 import Details from '../../container/details'
-import ReactDOM from "react-dom";
 
 class Card extends React.Component {
     constructor(props) {

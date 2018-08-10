@@ -1,0 +1,41 @@
+.hh-nav {
+    &__list {
+      margin: 0 -1rem;
+      display: flex;
+      align-items: center;
+    }
+  
+    &__list-item {
+      margin: 0 1rem;
+    }
+  
+    &__logo {
+      display: block;
+      margin-right: 3rem;
+    }
+  
+    &__search {
+      display: flex;
+      margin-right: 2rem;
+      align-items: center;
+  
+      &::after {
+        content: '';
+        display: block;
+        width: 1px;
+        height: 34px;
+        background: #fff;
+        margin-right: -2rem;
+        margin-left: 2rem;
+      }
+    }
+  
+    &__link {
+      //@include type-link;
+    }
+      
+    &--secondary {
+      margin-left: auto;
+    }
+  }
+  
