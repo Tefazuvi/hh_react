@@ -1,27 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
 .hh_cocktails{
     background-color: $dark-red;
     &__subheading {
         //@include type-subheading();
         display: block;
-        padding: 4rem;
-        font-weight: bold;
+        padding: 2.5rem;
+        font-size: 40px;
         text-align: center;
         color: #D3D3D3;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 6px;
     }
 
     &__container {
-        //background-image: url('http://dirtymartini.uk.com/wp-content/uploads/2015/12/hero-spirits.jpg');
-        //background-size: cover;
-        //background-position: center;
-
-        //font-family: 'Parisienne', cursive;
-        //font-size: 30px;
         height: 100%;
-        //background-color: transparent;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        //justify-content: ;
     }
 
 }

@@ -13,7 +13,7 @@ class Cocktails extends React.Component {
   componentDidMount() {
     fetch(API)
       .then(response => response.json())
-      .then(data => this.setState({ cocktails: data.drinks.slice(0, 20) }));
+      .then(data => this.setState({ cocktails: data.drinks.slice(1, 22) }));
   }
 
   render() {

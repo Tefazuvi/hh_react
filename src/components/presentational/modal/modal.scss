@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
 .hh_modal{
 
     &__overlay{
@@ -24,26 +26,24 @@
     }
 
     &__title{
-        //margin: 1rem;
         font-size: 25px;
         font-weight: bold;
         padding: 15px;
+        font-family: 'Merriweather', serif;
       }
 
       &__subtitle{
-        //margin: 1rem;
         font-size: 18px;
-        font-weight: bold;
+        font-weight: bolder;
         padding: 20px 10px;
+        font-family: 'Merriweather', serif;
       }
 
     &__container {
-        //@include type-heading-1;
         padding: 10px;
-        //background-size: cover;
         margin: auto;
         display: flex;
-        //align-items: ;
+        align-items: center;
     }
 
     &__Content {
@@ -70,13 +70,9 @@
 
     &__image {
         display: inline-block;
-        //display: block;
-        //@include type-heading-1;
         width: 40%;
         height: 250px;
         padding: 30px;
-        //background-size: cover;
-        //margin: auto;
     }
 
     &__button{
