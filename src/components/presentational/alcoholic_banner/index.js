@@ -11,7 +11,7 @@ class Alcoholic_Banner extends React.Component {
       }
 
     componentDidMount() {
-        this.timer = setInterval(this.tick(), 10000);
+        this.timer= setInterval(this.tick.bind(this), 5000);
     }
 
     componentWillUnmount() {
@@ -19,10 +19,13 @@ class Alcoholic_Banner extends React.Component {
     }
 
     tick() {
-        if(this.state.currentIndex == 2){
-            this.setState(currentIndex = 0);
+        let currentIndex = this.state.currentIndex;
+        if(currentIndex == 2){
+            this.setState({currentIndex : 0});
         }else{
-            this.state.currentIndex++;
+            this.setState(prevState => ({
+                currentIndex: prevState.currentIndex + 1
+              }));
         }
     }
 
