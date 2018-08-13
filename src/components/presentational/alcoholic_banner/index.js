@@ -5,13 +5,13 @@ class Alcoholic_Banner extends React.Component {
         super(props);
 
         this.state = { 
-            positions : ['top', 'center', 'bottom'],
-            currentIndex : 0
+            currentIndex : 0,
+            positions : ['top', 'center', 'bottom']
         };
       }
 
     componentDidMount() {
-        this.timer = setInterval(this.tick, 10000);
+        this.timer = setInterval(this.tick(), 10000);
     }
 
     componentWillUnmount() {
@@ -20,16 +20,16 @@ class Alcoholic_Banner extends React.Component {
 
     tick() {
         if(this.state.currentIndex == 2){
-            //this.setState({currentIndex = 0});
+            this.setState(currentIndex = 0);
         }else{
-            //this.setState({currentIndex: currentIndex + 1});
+            this.state.currentIndex++;
         }
     }
 
     render() {
         const styles = {
             backgroundPosition: this.state.positions[this.state.currentIndex]
-        }
+        };
         return (
             <div className="hh-alcoholic_banner" style={styles}>
                 <div className="hh-alcoholic_banner__container">
