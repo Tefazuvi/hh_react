@@ -1,21 +1,12 @@
 .hh-card {
     text-align: center;
     background-color: transparent;
-    //display: flex;
-    //align-items: center;
-    //color: #fff;
     width: 33.33%;
-    //margin: 10px;
-  
-    /*&__container {
-      //@include container;
-    }*/
   
     &__image {
-      //@include type-heading-1;
       width: 60%;
       height: 250px;
-      //background-size: cover;
+      border-radius: 5%;
       margin: auto;
     }
   
