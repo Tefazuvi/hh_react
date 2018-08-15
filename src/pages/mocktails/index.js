@@ -4,13 +4,13 @@ import Banner from '../../components/presentational/alcoholic_banner/'
 import Cocktails from '../../components/container/cocktails/'
 
 
-export default class AlcoholicCocktails extends React.Component {
+export default class Mocktails extends React.Component {
   render () {
     return (
         <div className="main">
         <Banner />
         <Cocktails 
-        alcohol={true}
+        alcohol={false}
         />
       </div>
     )

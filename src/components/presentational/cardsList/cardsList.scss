@@ -1,12 +1,13 @@
 .hh_cocktails{
     background-color: $dark-red;
+    color: #D3D3D3;
+
     &__subheading {
         //@include type-subheading();
         display: block;
-        padding: 2.5rem;
+        padding: 2.5rem 0 0 0;
         font-size: 40px;
         text-align: center;
-        color: #D3D3D3;
         font-family: $font-Oswald;
         letter-spacing: 6px;
     }
@@ -16,6 +17,13 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+    }
+
+    &__description {
+        color: #f7d6db;
+        margin-bottom: 60px;
+        font-size: 20px;
+        text-align: center;
     }
 
 }

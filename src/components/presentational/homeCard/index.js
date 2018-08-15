@@ -11,7 +11,7 @@ class HomeCard extends React.Component {
                     <div className="hh-home_card__content hh-home_card__content--left">
                         <span className="hh-home_card__title">NON-ALCOHOLIC COCKTAILS</span>
                         <p className="hh-home_card__description">Delicious and hydrating drinks for all ages, perfect for any ocassion.</p>
-                        <Link to='/alcoholic_cocktails'><button className="hh-button hh-button--secondary">VIEW COCKTAILS</button></Link>
+                        <Link to='/non_alcoholic_cocktails'><button className="hh-button hh-button--secondary">VIEW COCKTAILS</button></Link>
                     </div>
                     <img src={non_alcohol_image} className="hh-home_card__image hh-home_card__image--right" />
                 </div>

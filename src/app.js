@@ -9,6 +9,7 @@ import Header from './components/presentational/header/'
 /* pages */
 import Home from './pages/home/'
 import AlcoholicCocktails from './pages/alcoholicCocktails/'
+import Mocktails from './pages/mocktails/'
 //import About from './pages/about/'
 //import Contact from './pages/contact/'
 
@@ -20,6 +21,7 @@ class App extends React.Component {
           <Header />
           <Route exact path='/' component={Home} />
           <Route path='/alcoholic_cocktails' component={AlcoholicCocktails} />
+          <Route path='/non_alcoholic_cocktails' component={Mocktails} />
         </div>
       </BrowserRouter>
     )
